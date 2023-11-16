@@ -4,7 +4,7 @@
 
 ### Projects
 
-[Reducing Emissions in Car Carriers: An AI-Based Alert System](/sound_classification)
+[Reducing Emissions in Car Carriers: An AI-Based Alert System](/sounds_classification)
 [Github repository](https://github.com/giacomo-lab/sounds_classification)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
