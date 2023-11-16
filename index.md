@@ -4,14 +4,17 @@
 
 ### Projects
 
+[Reducing Emissions in Car Carriers: An AI-Based Alert System](/sound_classification)
+[Github repository](https://github.com/giacomo-lab/sounds_classification)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+
 [Geoclustering](/sample_page)
 <img src="images/map_geoclustering.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
