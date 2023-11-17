@@ -15,7 +15,7 @@ First thing we did was categorize the files into two classes: `engine_idling` an
 
 While all files were stored as .wav files, they showed some differences. To standardize the files within our balanced dataset, we first converted them all to one channel (mono), a sampling rate of 44100 Hz as well as extending shorter files to the length of the longest files, by adding silence at the end. Afterwards we decided to enlarge our dataset by augmenting it. This was done with aplying a 1 second time shift to each sound.  
 
-<img src="images/sound_classification/preprocessing.png">
+<img src="images/sound_classification/Preprocessing.png">
 
 We decided to convert the sound files into images, as this is a proven approach for automated sound recognition tasks. After applying a fourier transformation, mel spectra were created for each file, both original and augmented. 
 
