@@ -33,7 +33,3 @@ The network had a test accuracy of 95% and a loss of 0.14 before reaching overfi
 <img src="images/sound_classification/accuracy-and-loss.png">
 
 ### 5. Next steps and improvements
-
-While this is a first version of the model, there certainly are steps that can be undertaken for improvement. \
-First, the model should be connected to the hardware components used, meaning a microphone and a warning signal. Once this is done, an adaptation for a live sound feed is needed. \
-Improving the accuracy could be achieved by saving and classifying sounds coming from the environment in which the model is used. This would, for example, include ship engines, sound coming from the docking operations as well as a higher variety of different idling engine sounds in closed spaces. Over time, this would certainly help to improve the accuracy of the model and make it better suited for its employment environment. 
