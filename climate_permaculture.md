@@ -13,6 +13,7 @@ To render the data more accessible we provide a dashboard in addition to a Jupyt
 
 As establishing a healthy and balanced ecosystem is a longterm endavour, and climate change is a rising issue, we included climate projections for the next 30 years. 
 Here we, a biologist and a meteorologist, teamed up to provide a summary of the local climate, easy to understand without technical knowledge. 
+
 <!--
 <div style="display: flex; justify-content: center;">
   <p style="float: left;">
