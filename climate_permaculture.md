@@ -14,15 +14,6 @@ To render the data more accessible we provide a dashboard in addition to a Jupyt
 As establishing a healthy and balanced ecosystem is a longterm endavour, and climate change is a rising issue, we included climate projections for the next 30 years. 
 Here we, a biologist and a meteorologist, teamed up to provide a summary of the local climate, easy to understand without technical knowledge. 
 
-<!--
-<div style="display: flex; justify-content: center;">
-  <p style="float: left;">
-    <img src="images/permaculture/winter.jpg" width="155" />
-    <img src="images/permaculture/summer.jpg" width="150" /> 
-  </p>
-</div>
-The pictures above show my personal garden, what looks like chaos on the right is a selected mix of local plant species that try to provide a good and healthy habitat to insects, birds and small mammals. 
--->
 ## Datasets
 
 The dataset used for the past climate data is the [ERA5 monthly averaged data on single levels from 1940 to present](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview).
@@ -45,3 +36,15 @@ Here we want to show one of our graphs as an example. This particular graph is m
 While our dashboard runs locally, we are developing it in a way that it can be deployed online without much extra effort. 
 
 We would also like to include biological information specifically centered around permaculture. Meaning, in addition to the meteorological data provided here, the user gets a list of plants that grow in the selected area, and ideally also infromations on grwoth temperature, water needs, and so on. This was not realisable yet as this information is not accessible for plant species that are outside of the main agricoltural focus, but are really important for a local ecosystem and therefore permaculture. 
+
+
+
+<!--
+<div style="display: flex; justify-content: center;">
+  <p style="float: left;">
+    <img src="images/permaculture/winter.jpg" width="155" />
+    <img src="images/permaculture/summer.jpg" width="150" /> 
+  </p>
+</div>
+The pictures above show my personal garden, what looks like chaos on the right is a selected mix of local plant species that try to provide a good and healthy habitat to insects, birds and small mammals. 
+-->
