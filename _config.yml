@@ -2,10 +2,15 @@ title: Giacomo Labbri # your name (or website title) here
 logo: "/images/profile_image_circle.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   2+ years as data analyst
+  Experienced in data analysis, statistics, programming, and machine learning.<br>
+  Curious mind who loves problem-solving. <br>
+  Passionate about climate change and sustainability.<br>
+  Teamwork enthusiast.<br> 
+  Based in Italy but open to relocation.
   <br><br>
   Master in Physics
   <br><br>
-  <a href="https://www.linkedin.com/in/giacomo-labbri/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/giacomo-labbri/">LinkedIn</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
