@@ -4,12 +4,12 @@ With this project we want to make complex climate data accessible to people who 
 To render the data more accessible we provide a dashboard in addition to a Jupyter notebook. 
 
 ## What we learned/improved
-- API requests
-- managing netcdf and grib files with xarray
-- Plotly for graphical representations
-- Dash to build a dashboard
-- project management with Github
-- breaking down complex data
+- Create an app with a database using Dash, Plotly and SQL
+- Manage netcdf and grib files (Xarray and Pandas)
+- Write API requests
+- Recognize bottlenecks and optimizig performance
+- Project management with GitHub, code organization for better readability
+
 
 As establishing a healthy and balanced ecosystem is a longterm endavour, and climate change is a rising issue, we included climate projections for the next 30 years. 
 Here we, a biologist and a meteorologist, teamed up to provide a summary of the local climate, easy to understand without technical knowledge. 
@@ -31,9 +31,20 @@ Here we want to show one of our graphs as an example. This particular graph is m
 
 <!--<img src="images/permaculture/rain_temp_graph.png"/>-->
 
+## Dashboard creation
+
+To make this program more user friendly, we decided to create two versions. One is a jupyter notebook where the code is executed cellwise, while the other is a dashboard. The idea behind the dashobard is that once all dependencies are installed, the climate informations are accessible to anyone, regardless of their python knowledge. The design is kept as minimalistic as possible. After entering a location the graphs are calculated and plottet, along with a description of the graph and a small introductory text for the selected location. While the accessibility problem was solved creating a dashboard, it left the challenge of long loading times.
+
+## Database management and performance optimization
+
+In order to decrease loading times we implemented two things.
+First we downloaded a dataset that includes all of mainland Europe since the standard CDS API can be quite slow. This means that only one time consuming API request is needed to get the required data before using the dashboard for the first time. \
+At the same time this meant that the already slow process of loading the grib files beccomes even more tideous. We approaced this by moving the variables from grib files (for the past data) and nc files (for the prediction data) into a .db file, accessible using SQL querys, which substantially reduced loading times.\
+Another step we took to achive better performance is parallelization of the climatology calculations using dask. 
+
 ## Future steps and expansion
 
-While our dashboard runs locally, we are developing it in a way that it can be deployed online without much extra effort. 
+While our dashboard runs locally, we developed it in a way that it can be deployed online without much extra effort. 
 
 We would also like to include biological information specifically centered around permaculture. Meaning, in addition to the meteorological data provided here, the user gets a list of plants that grow in the selected area, and ideally also infromations on grwoth temperature, water needs, and so on. This was not realisable yet as this information is not accessible for plant species that are outside of the main agricoltural focus, but are really important for a local ecosystem and therefore permaculture. 
 
