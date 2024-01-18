@@ -11,7 +11,7 @@ Developed using: `TensorFlow`, `Keras`, `Numpy`, `Librosa`, `Pandas`
 ### [PermaClimate Dashboard](/climate_permaculture.md) 
 Developed using: `Plotly`, `Dash`, `SQL`, `Dask`, `Xarray`, `Pandas`
 <!--Loading... ■■■■■■■□□□ -->
-<img src="images/perma_climate/dashboard_permaclimate.gif?raw=true"/>
+<img src="images/perma_climate/dashboard.gif?raw=true"/>
 
 <!--<img src="images/sound_classification/title_image_sound_classification.png?raw=true"/>  -->
 [Github repository](https://github.com/giacomo-lab/permaculture-climate)
